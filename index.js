@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const env = require('dotenv');
 const colors = require('colors');
 const routes = require('./routes');
-const connection = require('./database/connection');
+const connection = require('./database/connection'); 
 
 //Enviroment variables
 env.config()
